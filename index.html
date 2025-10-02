@@ -3,24 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Vijayaragavan Saravanan — Embedded Systems & IoT</title>
-  <meta name="description" content="Vijayaragavan Saravanan — B.E. ECE. Embedded systems, IoT, PLCs, STM32, ESP32. Portfolio and projects."/>
-  <!-- Google Fonts (optional) -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Vijayaragavan Saravanan — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="assets/favicon.ico">
-  <!-- Open Graph (basic) -->
-  <meta property="og:title" content="Vijayaragavan Saravanan — Portfolio" />
-  <meta property="og:description" content="Embedded systems, IoT, and automation projects." />
-  <meta property="og:type" content="website" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="#home">Vijayaragavan Saravanan</a>
-      <nav aria-label="Main navigation">
+      <h1 class="brand">Vijayaragavan Saravanan</h1>
+      <nav>
         <ul class="nav">
           <li><a href="#projects">Projects</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -31,125 +22,76 @@
     </div>
   </header>
 
-  <main id="main">
-    <!-- Hero -->
-    <section id="home" class="hero container">
-      <div class="hero-text">
-        <h1>Vijayaragavan Saravanan</h1>
-        <p class="tagline">Embedded Systems & IoT Engineer — STM32, ESP32, PIC, PLCs</p>
-        <p class="intro">
-          Electronics & Communication Engineering graduate (B.E.). Hands-on experience in microcontrollers,
-          industrial control panels, and sensor integration. Passionate about building practical automation and
-          rescue-assist prototypes that combine hardware, firmware and signal processing.
-        </p>
-        <div class="cta">
-          <a class="btn primary" href="CV_VIjay.pdf" target="_blank" rel="noopener">View Resume (PDF)</a>
-          <a class="btn" href="https://www.linkedin.com/in/vijay-saravanan1609/" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero container">
+      <h2>Embedded Systems & IoT Engineer</h2>
+      <p>Electronics & Communication Engineering graduate with experience in IoT, microcontrollers, and automation.</p>
+      <div class="cta">
+        <a class="btn primary" href="CV_VIjay.pdf" target="_blank">View Resume</a>
+        <a class="btn" href="https://www.linkedin.com/in/vijay-saravanan1609/" target="_blank">LinkedIn</a>
       </div>
-      <figure class="hero-image" aria-hidden="true">
-        <!-- Replace with your photo or project image -->
-        <img src="assets/img/advanced-life-detection.jpg" alt="Prototype image placeholder">
-      </figure>
     </section>
 
-    <!-- Projects -->
+    <!-- Projects Section -->
     <section id="projects" class="container section">
       <h2>Projects</h2>
-      <p class="muted">Selected projects from my B.E. (case study format). Click a project for details or view the repo.</p>
-      <div id="projects-grid" class="projects-grid" aria-live="polite">
-        <!-- JS will inject project cards here from projects.json -->
-        <noscript>
-          <p>JavaScript is required to view projects. Enable JS or view my GitHub repositories linked in the resume.</p>
-        </noscript>
-      </div>
+      <div id="projects-grid" class="projects-grid"></div>
     </section>
 
-    <!-- Experience -->
+    <!-- Experience Section -->
     <section id="experience" class="container section">
-      <h2>Internships & Experience</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>Lakshmi Electrical Control Systems</h3>
-          <p class="meta">Intern — Control Panel Assembler (Jan 2025 – Apr 2025)</p>
-          <ul>
-            <li>Designed & wired industrial control panels (PLCs, motors, sensors).</li>
-            <li>Troubleshot wiring issues reducing test downtime by ~20%.</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <h3>Pricol Engineering Industries Pvt. Ltd.</h3>
-          <p class="meta">Intern — Automotive Manufacturing (Sep 2024 – Nov 2024)</p>
-          <ul>
-            <li>Supported manufacturing & testing of automotive sensors and USB modules.</li>
-            <li>Observed full product lifecycle from assembly to final testing.</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <h3>Emglitz Technologies</h3>
-          <p class="meta">Intern — Embedded / IoT (Jul 2023, Jul 2024)</p>
-          <ul>
-            <li>Developed automation projects with PIC16F877A; built Electronic Voting Machine prototype.</li>
-            <li>Built ESP32/Arduino IoT prototypes integrating sensors & displays.</li>
-          </ul>
-        </article>
-      </div>
+      <h2>Experience</h2>
+      <article class="card">
+        <h3>Lakshmi Electrical Control Systems</h3>
+        <p>Intern – Control Panel Assembler (Jan–Apr 2025)</p>
+        <ul>
+          <li>Designed & wired industrial control panels with PLCs, motors, and sensors.</li>
+          <li>Troubleshot wiring issues, reducing downtime by 20%.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Pricol Engineering Industries Pvt. Ltd.</h3>
+        <p>Intern – Automotive Manufacturing (Sep–Nov 2024)</p>
+        <ul>
+          <li>Worked on automotive sensors, USB modules, and power accessories.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Emglitz Technologies</h3>
+        <p>Intern – IoT & Embedded Systems (2023–2024)</p>
+        <ul>
+          <li>Built IoT prototypes with ESP32 & Arduino.</li>
+          <li>Developed an electronic voting machine using PIC16F877A.</li>
+        </ul>
+      </article>
     </section>
 
-    <!-- Skills -->
+    <!-- Skills Section -->
     <section id="skills" class="container section">
-      <h2>Technical Skills</h2>
-      <div class="skill-grid">
-        <div class="skill">
-          <strong>Languages</strong>
-          <p>C, Python, MATLAB</p>
-        </div>
-        <div class="skill">
-          <strong>Microcontrollers</strong>
-          <p>STM32, ESP32, Arduino, PIC16F877A</p>
-        </div>
-        <div class="skill">
-          <strong>Systems</strong>
-          <p>PLCs, Sensor Integration, Industrial Control</p>
-        </div>
-        <div class="skill">
-          <strong>Tools</strong>
-          <p>Cadence Virtuoso, MATLAB, Linux</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Certifications -->
-    <section id="certs" class="container section">
-      <h2>Certifications & Workshops</h2>
-      <ul class="cert-list">
-        <li>Cadence Chronicles — Virtuoso & transistor design (Mar 2024)</li>
-        <li>STM32 Workshop — MCU architecture & peripherals</li>
-        <li>Optical Communication Workshop — MATLAB simulations</li>
+      <h2>Skills</h2>
+      <ul>
+        <li><b>Programming:</b> C, Python, MATLAB</li>
+        <li><b>Microcontrollers:</b> STM32, ESP32, Arduino, PIC16F877A</li>
+        <li><b>Tools:</b> Cadence Virtuoso, MATLAB, Linux</li>
       </ul>
     </section>
 
-    <!-- Contact -->
+    <!-- Contact Section -->
     <section id="contact" class="container section">
       <h2>Contact</h2>
-      <p>If you’d like to discuss a role or collaboration, email me directly:</p>
-      <p><a href="mailto:vijaysaravanan1609@gmail.com">vijaysaravanan1609@gmail.com</a></p>
-      <p>Or connect on LinkedIn: <a href="https://www.linkedin.com/in/vijay-saravanan1609/" target="_blank" rel="noopener">vijay-saravanan1609</a></p>
+      <p>Email: <a href="mailto:vijaysaravanan1609@gmail.com">vijaysaravanan1609@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/vijay-saravanan1609/" target="_blank">vijay-saravanan1609</a></p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <small>© <span id="year"></span> Vijayaragavan Saravanan — Available for immediate joining • Willing to relocate</small>
-    </div>
+    <p>© <span id="year"></span> Vijayaragavan Saravanan</p>
   </footer>
 
   <script src="script.js" defer></script>
   <script>
-    // small inline script for dynamic year (keeps footer current)
-    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
