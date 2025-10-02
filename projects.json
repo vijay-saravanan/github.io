@@ -5,9 +5,9 @@
     "role": "Prototype Designer",
     "description": "Built a prototype to detect vital signs under debris using multi-sensor fusion, signal processing, and ML.",
     "tools": ["Embedded Systems", "Signal Processing", "Python", "Sensors"],
-    "image": "AHLD_1.jpeg",
+    "image": "fullbox.jpeg",
     "repo": "",
-    "moreLink": "FINAL Report B8.pdf"
+    "moreLink": "project-report.pdf"
   },
   {
     "title": "Gesture Detection with OpenCV",
