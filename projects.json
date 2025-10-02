@@ -2,35 +2,36 @@
   {
     "title": "Advanced Human Life Detection",
     "timeframe": "Apr 2025",
-    "role": "Prototype Designer — Multi-sensor & ML",
-    "description": "Built a prototype to detect vital signs under debris using multi-sensor fusion, signal preprocessing and a lightweight ML model. Focus was on sensor synchronization, noise filtering and robust detection in constrained environments.",
-    "tools": ["Microcontrollers", "Signal Processing", "Python", "Embedded ML"],
-    "image": "advanced-life-detection.jpg",
-    "repo": ""
+    "role": "Prototype Designer",
+    "description": "Built a prototype to detect vital signs under debris using multi-sensor fusion, signal processing, and ML.",
+    "tools": ["Embedded Systems", "Signal Processing", "Python", "Sensors"],
+    "image": "AHLD_1.JPEG",
+    "repo": "",
+    "moreLink": "FINAL Report B8.pdf"
   },
   {
     "title": "Gesture Detection with OpenCV",
     "timeframe": "Mar 2024",
     "role": "Developer",
-    "description": "Real-time hand-gesture recognition using OpenCV achieving ~85% accuracy across variable lighting. Implemented preprocessing, contour analysis, and a classifier pipeline.",
-    "tools": ["OpenCV", "Python", "Computer Vision"],
-    "image": "gesture-opencv.jpg",
+    "description": "Real-time hand-gesture recognition using OpenCV achieving ~85% accuracy under variable lighting conditions.",
+    "tools": ["Python", "OpenCV", "Computer Vision"],
+    "image": "",
     "repo": ""
   },
   {
     "title": "Gesture-Control Contactless Switch",
     "timeframe": "Feb 2024",
     "role": "Hardware & Firmware",
-    "description": "Arduino-based contactless switch using APDS-9960 sensor to toggle appliances without touch—useful for hygiene-critical environments.",
+    "description": "Arduino-based contactless switch using APDS-9960 sensor to toggle appliances without touch.",
     "tools": ["Arduino", "APDS-9960", "C"],
-    "image": "contactless-switch.jpg",
+    "image": "",
     "repo": ""
   },
   {
     "title": "Electronic Voting Machine (MPLAB)",
     "timeframe": "Jul 2024",
     "role": "Embedded Developer",
-    "description": "Prototype EVM using PIC16F877A with button interfaces and buzzer feedback. Completed basic UI for candidate selection and vote recording.",
+    "description": "Prototype EVM using PIC16F877A with button interfaces and buzzer feedback.",
     "tools": ["PIC16F877A", "MPLAB", "C"],
     "image": "",
     "repo": ""
